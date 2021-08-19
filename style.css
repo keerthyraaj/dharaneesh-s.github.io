@@ -100,11 +100,11 @@ img {
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .certification, .contact, footer{
+.about, .experience, .skills, .certification, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
-.services .serv-content,
+.experience .serv-content,
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
@@ -322,18 +322,18 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
-/* .services, .certification{
+/* experience section styling */
+/* .experience, .certification{
     color:#fff;
     background: #111;
 } */
-.services .title::before,
+.experience .title::before,
 .certification .title::before{
     /* background: #fff; */
 }
-.services .title::after,
+.experience .title::after,
 
-.services .serv-content .card{
+.experience .serv-content .card{
     width: calc(33% - 20px);
     background: #fff;
     text-align: center;
@@ -342,24 +342,24 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover{
+.experience .serv-content .card:hover{
     background: #B0C4DE;
 }
-.services .serv-content .card .box{
+.experience .serv-content .card .box{
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box{
+.experience .serv-content .card:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card i{
+.experience .serv-content .card i{
     font-size: 50px;
     color: #1029a3;
     transition: color 0.3s ease;
 }
-.services .serv-content .card:hover i{
+.experience .serv-content .card:hover i{
     color: #fff;
 }
-.services .serv-content .card .text{
+.experience .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -369,7 +369,7 @@ section .title::after{
 
 
 .skills .skills-content .column{
-    width: calc(50% - 30px);
+    width: calc(100% - 30px);
 }
 .skills .skills-content .left .text{
     font-size: 20px;
@@ -437,6 +437,10 @@ section .title::after{
 }
 .skills-content .right .mysql::before{
     width: 75%;
+}
+
+.skills-content .right .da-lib::before{
+    width: 70%;
 }
 
 
@@ -821,7 +825,7 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
-    .services .serv-content .card{
+    .experience .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
@@ -845,7 +849,7 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
     }
-    .services .serv-content .card{
+    .experience .serv-content .card{
         width: 100%;
     }
 }
