@@ -242,8 +242,7 @@ section .title::after{
     background-size: cover;
     background-attachment: fixed;
     font-family: "Lucida Console", Courier, monospace;
-	 position: relative;
-    overflow: hidden;
+	 
 }
 .home .max-width{
   width: 100%;
