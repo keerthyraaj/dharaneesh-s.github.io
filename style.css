@@ -100,7 +100,7 @@ img {
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .skills, .certification, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -323,12 +323,12 @@ section .title::after{
 }
 
 /* services section styling */
-/* .services, .teams{
+/* .services, .certification{
     color:#fff;
     background: #111;
 } */
 .services .title::before,
-.teams .title::before{
+.certification .title::before{
     /* background: #fff; */
 }
 .services .title::after,
