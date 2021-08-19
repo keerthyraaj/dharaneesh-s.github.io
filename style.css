@@ -435,12 +435,14 @@ section .title::after{
 .skills-content .right .rprogramming::before{
     width: 50%;
 }
-.skills-content .right .mysql::before{
-    width: 75%;
+
+
+.skills-content .right .dalib::before{
+    width: 65%;
 }
 
-.skills-content .right .da-lib::before{
-    width: 65%;
+.skills-content .right .mysql::before{
+    width: 75%;
 }
 
 
