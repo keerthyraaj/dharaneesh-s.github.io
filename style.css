@@ -228,7 +228,8 @@ section .title::after{
 
 
 /* home section styling */
-.home{
+
+	.home{
     display: flex;
     background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
@@ -887,6 +888,17 @@ footer span a:hover{
     }
 }
 
+@supports (-webkit-touch-callout: none){
+.home{
+    display: flex;
+    background: url("images/banner.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Lucida Console", Courier, monospace;
+}}
 
 
 /* End Keyframes */
