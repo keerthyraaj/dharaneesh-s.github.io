@@ -16,11 +16,14 @@
  /* #efebfa */
 html{
     scroll-behavior: smooth;
+
 }
 
 body {
 	background-color: var(--body-bg);
 }
+
+
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
@@ -231,7 +234,7 @@ section .title::after{
 
 	.home{
 		-webkit-touch-callout: none;
-    display: flex;
+    display: flex; 
     background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
@@ -239,6 +242,8 @@ section .title::after{
     background-size: cover;
     background-attachment: fixed;
     font-family: "Lucida Console", Courier, monospace;
+	 position: relative;
+    overflow: hidden;
 }
 .home .max-width{
   width: 100%;
